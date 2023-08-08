@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ../../xpenz/Frontend/
+      dockerfile: Dockerfile
+    image: xpenz-frontend
+
+  backend:
+    build:
+      context: ../../xpenz/Backend/
+      dockerfile: Dockerfile
+    image: xpenz-backend

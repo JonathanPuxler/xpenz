@@ -1,0 +1,64 @@
+# General
+/target/
+/.mvn/
+*.iml
+
+# Compiled Java classes
+*.class
+
+# Logs
+log/
+logs/
+
+
+# Maven
+target/
+
+# Dependencies
+/lib/
+/bin/
+/bootJar
+/*.jar
+
+# Intellij IDEA
+out/
+*.iml
+*.iws
+*.ipr
+/Backend/.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Temporary files
+*.swp
+*~
+Frontend/.angular/cache/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Angular generated files
+/angular.json
+/.angular-cli.json
+/*.ngfactory.ts
+/*.ngstyle.ts
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Compiled CSS
+*.css
+*.css.map
+
